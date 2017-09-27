@@ -2,7 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Karl &amp; Gina are getting married! | June 5 2011, Cherry Valley CA</title>
+<title>Thomas &amp; Salina are getting married!</title>
+<meta name="Description" content="Thomas and Salina are getting married! December 3 2017" />
+<meta name="Keywords" content="Thomas, Salina, Balaguer, Invitation"/>
+
 <link rel="stylesheet" type="text/css" media="all" href="style.css" />
 <script type='text/javascript' src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
@@ -10,7 +13,7 @@
             $(function() {
                 $('div.nav a').bind('click',function(event){
                     var $anchor = $(this);
-                    
+
                     $('html, body').stop().animate({
                         scrollTop: $($anchor.attr('href')).offset().top
                     }, 3000,'easeInOutQuad');
@@ -22,10 +25,10 @@
                     */
                     event.preventDefault();
                 });
-				
+
 				$('div#lunaplane a').bind('click',function(event){
                     var $anchor = $(this);
-                    
+
                     $('html, body').stop().animate({
                         scrollTop: $($anchor.attr('href')).offset().top
                     }, 3000,'easeInOutQuad');
@@ -37,16 +40,16 @@
                     */
                     event.preventDefault();
                 });
-				
+
             });
         </script>
         <script type="text/javascript" src="js/jquery.spritely-0.1.js"></script>
         <script type="text/javascript">
 		(function($) {
 			$(document).ready(function() {
-		
+
 				$('#clouds').pan({fps: 30, speed: 0.7, dir: 'right'});
-				
+
 				$('#lunaplane').sprite({fps: 10, no_of_frames: 3})
 					/*.spRandom({
 						top: 443,
@@ -56,7 +59,7 @@
 						speed: 2000,
 						pause: 2000
 					});*/
-										
+
 				$('#cupcakes').sprite({fps: 8, no_of_frames: 1})
 					.spRandom({
 						top: 20,
@@ -66,8 +69,8 @@
 						speed: 3000,
 						pause: 500
 					});
-					
-				
+
+
 				$('#kg').sprite({fps: 8, no_of_frames: 1})
 					.spRandom({
 						top: 20,
@@ -77,7 +80,7 @@
 						speed: 3500,
 						pause: 1000
 					});
-						
+
 			});
 		})(jQuery);
 	</script>
@@ -93,15 +96,15 @@
 <body>
 <div id="container">
 	<div id="section1">
-		<div id="kg"></div>  
+		<div id="kg"></div>
         <div id="lunaplane">
         	<a id="btn-weekend" href="#section2">Weekend</a>
             <a id="btn-travel" href="#section3">Travel</a>
             <a id="btn-resort" href="#section4">Resort</a>
             <a id="btn-registry" href="#section5">Registry</a>
-        </div>     
+        </div>
         <img id="datelocation" src="images/datelocation.png" alt="June 5 2011, Cherry Valley CA" />
-        
+
     </div><!--End section1-->
     <div id="section2">
         <div class="nav" id="nav2">
@@ -129,7 +132,7 @@
         	<a class="up" id="up4" href="#section3"></a>
             <a class="down" id="down4" href="#section5"></a>
         </div><!--End nav-dl-->
-    	<div id="hsresort">        
+    	<div id="hsresort">
         	<a id="btn-trails" href="images/hiking_map.jpg" title="Hiking Trails">View Hiking Trails</a>
             <a id="btn-property" href="images/resort_map.jpg" title="Highland Springs Resort Property Map">View Property Map</a>
             </div>
@@ -144,7 +147,7 @@
         	<a id="btn-honeyfund" href="http://www.honeyfund.com/wedding/karlandgina" target="_blank">Honeyfund</a>
         </div>
     </div>
-    
+
 </div><!--End container-->
 <div id="clouds"></div>
 <script type='text/javascript' src='js/jquery.simplemodal.js'></script>
